@@ -12,7 +12,12 @@ const exerciseSchema = mongoose.Schema({
     trim: true
   },
   duration: {
-    type: Number
+    type: Number,
+    trim: true
+  },
+  sets: {
+    type: Number,
+    trim: true
   }
 });
 
